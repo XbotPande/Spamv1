@@ -53,13 +53,11 @@ read -p ">>>>>> " pil;
 if [ $pil = 1 ]
 then
 clear
-cd AVARD
 bash pil:1.sh
 fi
 
 if [ $pil = 2 ]
 then
 clear
-cd AVARD
 bash pil:2.sh
 fi
